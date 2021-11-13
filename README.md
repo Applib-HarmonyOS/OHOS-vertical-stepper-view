@@ -2,7 +2,7 @@
 > A vertical stepper implementation of the [material design specification][1]
 
 
-#Screenshot
+### Screenshot
 ![Sample app screenshots](screenshots/screen.png)
 
 ## Feature Overview
