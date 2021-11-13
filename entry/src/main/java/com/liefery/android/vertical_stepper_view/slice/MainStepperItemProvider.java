@@ -7,8 +7,6 @@ import ohos.agp.components.Component;
 import ohos.agp.components.element.ShapeElement;
 import ohos.agp.utils.Color;
 import ohos.app.Context;
-import ohos.hiviewdfx.HiLog;
-import ohos.hiviewdfx.HiLogLabel;
 import com.liefery.android.vertical_stepper_view.ResourceTable;
 import com.liefery.android.vertical_stepper_view.VerticalStepperItemProvider;
 
@@ -42,7 +40,7 @@ public class MainStepperItemProvider extends VerticalStepperItemProvider {
 
     @Override
     public int getCount() {
-        return 7;
+        return 4;
     }
 
     @Override
