@@ -28,7 +28,7 @@ add the below dependencies in entry/build.gradle to generate hap/support.har.
 implementation project(path: ':vertical_stepper_view')
 ```
 
-2. For using UniversalPickerDialog module in separate application using har file, add the har file in the entry/libs 
+2. For using HMOS-vertical-stepper-view module in separate application using har file, add the har file in the entry/libs 
 folder and add the dependencies in entry/build.gradle file.
 ```groovy
 implementation fileTree(dir: 'libs', include: ['*.har'])
