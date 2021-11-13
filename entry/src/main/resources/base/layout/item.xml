@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="120vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="#a3a3a3">
+
+        <TextField
+            ohos:id="$+id:input"
+            ohos:height="match_content"
+            ohos:width="160vp"
+            ohos:hint="Give Me state"
+            ohos:text_size="22fp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:action_continue"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Continue"
+            ohos:text_size="14fp"
+            ohos:background_element="#009688"
+            ohos:text_color="#ffffff"
+            ohos:padding="6vp"
+            ohos:margin="6vp"
+            ohos:start_padding="16vp"
+            ohos:end_padding="16vp"
+            />
+
+        <Button
+            ohos:id="$+id:action_back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Back"
+            ohos:text_size="14fp"
+            ohos:background_element="#009688"
+            ohos:text_color="#ffffff"
+            ohos:padding="6vp"
+            ohos:start_padding="16vp"
+            ohos:end_padding="16vp"
+            ohos:margin="6vp"/>
+    </DirectionalLayout>
+</DirectionalLayout>

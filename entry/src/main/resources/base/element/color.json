@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "btn_active_color",
+      "value": "#009688"
+    },
+    {
+      "name": "btn_active_text_color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "btn_inactive_color",
+      "value": "#d6d7d7"
+    },
+    {
+      "name": "btn_inactive_text_color",
+      "value": "#a3a3a3"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:tools="http://schemas.huawei.com/res/tools"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <com.liefery.android.vertical_stepper_view.VerticalStepperItemCircleComponent
+        ohos:id="$+id:vertical_stepper_view_item_circle"
+        ohos:height="24vp"
+        ohos:width="24vp"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:vertical_stepper_view_item_wrapper"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="10vp"
+        ohos:orientation="vertical" >
+        <!--title-->
+        <Text
+            ohos:id="$+id:vertical_stepper_view_item_title"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="14fp"
+            ohos:text="Title"
+        />
+        <!-- summery -->
+        <Text
+            ohos:id="$+id:vertical_stepper_view_item_summary"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="14fp"
+            ohos:text="summery"
+        />
+        <StackLayout
+            ohos:id="$+id:vertical_stepper_view_item_content_wrapper"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:top_margin="16vp"
+            />
+    </DirectionalLayout>
+
+
+</DirectionalLayout>
