@@ -58,7 +58,7 @@ checkstyle {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "vertical_stepper_view"
+        property "sonar.projectKey", "applibgroup_HMOS-vertical-stepper-view"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io/"
         property "sonar.java.checkstyle.reportPaths", "checkstyle.xml"
