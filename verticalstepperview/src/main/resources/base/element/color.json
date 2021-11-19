@@ -1,0 +1,17 @@
+{
+  "color": [
+    {
+      "name": "vertical_stepper_view_grey_100",
+      "value": "#BDBDBD"
+    },{
+      "name": "vertical_stepper_view_black_87",
+      "value": "#DE000000"
+    },{
+      "name": "vertical_stepper_view_black_38",
+      "value": "#61000000"
+    },{
+      "name": "white",
+      "value": "#ffffff"
+    }
+  ]
+}

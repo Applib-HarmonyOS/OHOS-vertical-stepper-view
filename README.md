@@ -1,10 +1,9 @@
-# Android Vertical Stepper View
-
+# HMOS Vertical Stepper View
 > A vertical stepper implementation of the [material design specification][1]
 
-[![](https://jitpack.io/v/liefery/android-vertical-stepper-view.svg)](https://jitpack.io/#liefery/android-vertical-stepper-view)
 
-![Sample app screenshots](https://liefery.github.io/android-vertical-stepper-view/screenshots.png)
+### Screenshot
+![Sample app screenshots](screenshots/screen.png)
 
 ## Feature Overview
 
@@ -15,34 +14,32 @@
 
 The library is currently lacking animations between step transitions.
 
-## Installation
+### Source
+This library has been inspired by [liefery-it-legacy/android-vertical-stepper-view](https://github.com/liefery-it-legacy/android-vertical-stepper-view)
 
-### sbt
 
-```scala
-resolvers += "jitpack" at "https://jitpack.io"
 
-libraryDependencies += "com.github.liefery" % "android-vertical-stepper-view" % "0.2.1"
-```
+### Integration
 
-### Gradle
-
+**From Source**
+1. For using HMOS-vertical-stepper-view module in sample app, include the source code and 
+add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```groovy
-allprojects {
-    repositories {
-        ...
-        maven { url "https://jitpack.io" }
-    }
-}
-
-dependencies {
-    compile 'com.github.liefery:android-vertical-stepper-view:0.2.1'
-}
+implementation project(path: ':verticalstepperview')
 ```
 
-## Usage
+2. For using HMOS-vertical-stepper-view module in separate application using har file, add the har file in the entry/libs 
+folder and add the dependencies in entry/build.gradle file.
+```groovy
+implementation fileTree(dir: 'libs', include: ['*.har'])
+```
+### Usage
 
 Please take a look at the [sample][2] application.
 
-[1]: https://material.io/guidelines/components/steppers.html
-[2]: /sample/src/main/java/com/liefery/android/vertical_stepper_view/sample
+
+### License
+Please check the [LICENCE](LICENSE) file
+
+[1]: https://material.io/archive/guidelines/components/steppers.html#
+[2]: /entry/src/main/java/com/liefery/android/verticalstepperview/slice
