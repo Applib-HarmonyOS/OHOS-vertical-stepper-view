@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.liefery.android.vertical_stepper_view.VerticalStepperComponent
+<com.liefery.android.verticalstepperview.VerticalStepperComponent
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:id="$+id:stepper_list"
     ohos:height="match_parent"

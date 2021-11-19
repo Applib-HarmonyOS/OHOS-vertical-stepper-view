@@ -25,7 +25,7 @@ This library has been inspired by [liefery-it-legacy/android-vertical-stepper-vi
 1. For using HMOS-vertical-stepper-view module in sample app, include the source code and 
 add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```groovy
-implementation project(path: ':vertical_stepper_view')
+implementation project(path: ':verticalstepperview')
 ```
 
 2. For using HMOS-vertical-stepper-view module in separate application using har file, add the har file in the entry/libs 
@@ -42,4 +42,4 @@ Please take a look at the [sample][2] application.
 Please check the [LICENCE](LICENSE) file
 
 [1]: https://material.io/archive/guidelines/components/steppers.html#
-[2]: /entry/src/main/java/com/liefery/android/vertical_stepper_view/slice
+[2]: /entry/src/main/java/com/liefery/android/verticalstepperview/slice

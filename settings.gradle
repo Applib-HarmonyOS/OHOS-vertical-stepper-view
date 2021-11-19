@@ -1,1 +1,1 @@
-include ':entry', ':vertical_stepper_view'
+include ':entry', ':verticalstepperview'

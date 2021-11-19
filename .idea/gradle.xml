@@ -12,7 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/entry" />
-            <option value="$PROJECT_DIR$/vertical_stepper_view" />
+            <option value="$PROJECT_DIR$/verticalstepperview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
